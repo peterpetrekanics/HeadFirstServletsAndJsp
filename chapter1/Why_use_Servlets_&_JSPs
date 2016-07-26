@@ -1,0 +1,46 @@
+Chapter 1
+
+What does your web server do?
+What does a web client do?
+Clients and servers know HTML and HTTP
+What is the HTTP protocol?
+Anatomy of an HTTP GET request
+Anatomy of an HTTP POST request
+Anatomy of an HTTP response
+Anatomy of a URL
+Directory structure for a simple Apache web site
+
+---
+Exercise 1 - Get or Post:
+
+A user is returning a login name and password.	->	POST
+A user is requesting a new page via a hyperlink.	->	GET
+A chat room user is sending a written response.	->	POST
+A user hits the ‘next’ button to see the next page.	->	GET
+A user hits the ‘log out’ button on a secure banking site.	->	POST
+A user hits the ‘back’ button on the browser.	->	GET
+A user sends a name and address form to the server.	->	POST
+A user makes a radio button selection.	->	GET
+
+---
+Exercise 2 - Mapping URLs to content:
+
+http://www.wickedlysmart.com
+http://www.wickedlysmart.com/skiingAdvice
+http://www.wickedlysmart.com/beerAdvice
+http://www.wickedlysmart.com/select/selectBeer.html
+
+---
+
+Exercise 3 - Request response:
+
+1. The browser creates an HTTP GET request
+2. The HTTP GET is sent to the server
+3. The server finds the page
+4. And generates an HTTP response
+5. The HTTP response is sent to the browser
+6. The browser renders the HTML
+7. Client reads the page
+
+---
+
