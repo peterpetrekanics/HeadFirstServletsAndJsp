@@ -1,0 +1,1 @@
+javac -classpath "c:\git\HeadFirstServletsAndJsp\apache-tomcat-7.0.67\lib\servlet-api.jar";classes -d classes src/com/example/model/BeerExpert.java src/com/example/web/BeerSelect.java
