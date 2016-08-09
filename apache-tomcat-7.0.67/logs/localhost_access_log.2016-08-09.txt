@@ -1,0 +1,6 @@
+127.0.0.1 - - [09/Aug/2016:22:46:42 +0200] "GET /Beer-v1/form.html HTTP/1.1" 200 421
+127.0.0.1 - - [09/Aug/2016:22:46:46 +0200] "POST /Beer-v1/SelectBeer.do HTTP/1.1" 500 3566
+127.0.0.1 - - [09/Aug/2016:23:04:20 +0200] "GET /Beer-v1/form.html HTTP/1.1" 304 -
+127.0.0.1 - - [09/Aug/2016:23:04:22 +0200] "POST /Beer-v1/SelectBeer.do HTTP/1.1" 500 3566
+127.0.0.1 - - [09/Aug/2016:23:06:02 +0200] "GET /Beer-v1/form.html HTTP/1.1" 304 -
+127.0.0.1 - - [09/Aug/2016:23:06:03 +0200] "POST /Beer-v1/SelectBeer.do HTTP/1.1" 200 53
