@@ -1,0 +1,1 @@
+javac -classpath c:/git/HeadFirstServletsAndJsp/apache-tomcat-7.0.67/lib/servlet-api.jar -d classes src/C2dice.java
