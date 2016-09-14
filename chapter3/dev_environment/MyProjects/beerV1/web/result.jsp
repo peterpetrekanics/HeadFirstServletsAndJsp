@@ -1,12 +1,12 @@
-<% page import="java.util.*" %>
+<%@ page import="java.util.*" %>
 <html>
 <body>
-<h1 align="center> Beer Recommendation JSP</h1>
+<h1 align="center"> Beer Recommendation JSP</h1>
 <p>
 
 <%
  List styles = (List)request.getAttribute("styles");
- Iterator it = styles.Iterator();
+ Iterator it = styles.iterator();
  while(it.hasNext()) {
 	 out.print("<br>try: " + it.next());
  }

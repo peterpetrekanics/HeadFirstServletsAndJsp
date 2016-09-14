@@ -1,0 +1,18 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+version="2.4">
+<servlet>
+<servlet-name>AttributeChanger</servlet-name>
+<servlet-class>com.example.web.AttributeChanger</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>AttributeChanger</servlet-name>
+<url-pattern>/SubmitChange.do</url-pattern>
+</servlet-mapping>
+
+<context-param>
+	<param-name>foo</param-name>
+	<param-value>initialvalue</param-value>
+</context-param>
+</web-app>
