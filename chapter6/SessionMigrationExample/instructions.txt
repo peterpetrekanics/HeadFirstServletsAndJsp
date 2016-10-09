@@ -10,3 +10,6 @@ sudo service nginx reload
 systemctl status nginx.service
  The command to check if the load balancer is working:
 curl localhost
+
+4. I will use jconsole to monitor the count of the active sessions
+(https://coderanch.com/t/561787/a/2790/active_session_Jconsole.JPG)
