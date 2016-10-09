@@ -1,0 +1,29 @@
+upstream web_backend {
+    # Uncomment for the IP Hashing load balancing method:
+    # ip_hash;
+    # Uncomment for the Least Connected load balancing method:
+    # least_conn;
+    # Replace the IP addresses with the IP addresses
+    # (or host names) of your back end web servers.
+    # Examples:
+        # server www1.example.com:8080;
+        # server 192.168.1.100;
+    server localhost:8080;
+    server localhost:9090;
+#server www.whatismybrowser.com;
+#server www.whatismybrowser.com;
+#server 89.132.125.212;
+#server 89.132.125.212;
+	}
+	server {
+    listen 80;
+    location / {
+#        proxy_set_header X­Forwarded­For $proxy_add_x_forwarded_for;
+        proxy_pass http://web_backend/$1$is_args$args;
+        proxy_set_header X-Real-IP  $remote_addr;
+        proxy_set_header X-Forwarded-For $remote_addr;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-Port $server_port;
+        proxy_set_header X-Real-Scheme $scheme;
+   }
+}

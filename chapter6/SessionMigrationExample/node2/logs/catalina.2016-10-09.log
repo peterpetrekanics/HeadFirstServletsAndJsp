@@ -1,0 +1,102 @@
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.67
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 7 2015 13:07:11 UTC
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.67.0
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.4.0-38-generic
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_91-8u91-b14-3ubuntu1~16.04.1-b14
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/conf/logging.properties
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/endorsed
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/temp
+Oct 09, 2016 12:09:27 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Oct 09, 2016 12:09:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9090"]
+Oct 09, 2016 12:09:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-9009"]
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 580 ms
+Oct 09, 2016 12:09:27 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 09, 2016 12:09:27 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.67
+Oct 09, 2016 12:09:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/webapps/ROOT
+Oct 09, 2016 12:09:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/webapps/ROOT has finished in 412 ms
+Oct 09, 2016 12:09:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/webapps/ROOT_old
+Oct 09, 2016 12:09:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/webapps/ROOT_old has finished in 60 ms
+Oct 09, 2016 12:09:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/webapps/docs
+Oct 09, 2016 12:09:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/webapps/docs has finished in 62 ms
+Oct 09, 2016 12:09:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/webapps/host-manager
+Oct 09, 2016 12:09:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/webapps/host-manager has finished in 91 ms
+Oct 09, 2016 12:09:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/webapps/manager
+Oct 09, 2016 12:09:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/webapps/manager has finished in 61 ms
+Oct 09, 2016 12:09:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/webapps/examples
+Oct 09, 2016 12:09:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/webapps/examples has finished in 297 ms
+Oct 09, 2016 12:09:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9090"]
+Oct 09, 2016 12:09:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-9009"]
+Oct 09, 2016 12:09:28 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1044 ms
+Oct 09, 2016 12:11:38 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.ArrayIndexOutOfBoundsException: -62
+	at org.apache.coyote.http11.InternalInputBuffer.parseHeader(InternalInputBuffer.java:341)
+	at org.apache.coyote.http11.InternalInputBuffer.parseHeaders(InternalInputBuffer.java:271)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1008)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+Oct 09, 2016 12:59:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/webapps/Copy (1) ROOT
+Oct 09, 2016 12:59:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/webapps/Copy (1) ROOT has finished in 46 ms
+Oct 09, 2016 12:59:59 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/Copy (1) ROOT]
+Oct 09, 2016 12:59:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/webapps/ROOT2
+Oct 09, 2016 12:59:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/peter/git/HeadFirstServletsAndJsp/chapter6/SessionMigrationExample/node2/webapps/ROOT2 has finished in 34 ms
+Oct 09, 2016 1:02:40 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/ROOT2]

@@ -1,0 +1,12 @@
+1. Extract 2 tomcat zip files from the apache website and call them node1 and node2
+2. Install nginx (Ubuntu):
+sudo apt-get install nginx
+3. Set up nginx configuration to ensure that it distributes web requests between our 2 tomcat nodes
+(I followed http://www.linuxtrainingacademy.com/wp-content/uploads/2015/01/load-balancing-with-nginx-cheat-sheet.pdf
+and https://www.youtube.com/watch?v=SpL_hJNUNEI)
+ The command to reload the configuration is:
+sudo service nginx reload
+ The command to show reloading errors:
+systemctl status nginx.service
+ The command to check if the load balancer is working:
+curl localhost
